@@ -3,5 +3,10 @@ name = "rust-gpu-builder-shared"
 version = "0.1.0"
 edition = "2021"
 
+[features]
+default = ["bevy"]
+bevy = ["dep:bevy"]
+
 [dependencies]
 serde = { version = "1.0.157", features = ["derive"] }
+bevy = { version = "0.10.0", optional = true }
