@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["RustGpuBuilderModules","Module binary data container."]],"struct":[["RustGpuBuilderOutput","Compile output from `rust-gpu-builder`, includes SPIR-V binary modules and entry point metadata."]]};
